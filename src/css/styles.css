@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&&family=Metal+Mania&display=swap");
+
+:root {
+  --main-dark: #1d1d1d;
+  --main-dark-82: rgba(29, 29, 29, 0.82);
+  --main-dark-0: rgba(29, 29, 29, 0);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--main-dark);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Metal Mania", sans-serif;
+  line-height: 1;
+}
+
+.hero-section {
+  position: relative;
+  margin: 50px 0 0;
+  width: 100vw;
+  height: 80vh;
+  background-image: linear-gradient(
+      179.63deg,
+      var(--main-dark) 5.75%,
+      var(--main-dark-82) 29.19%,
+      var(--main-dark-0) 52.56%
+    ),
+    linear-gradient( 1.44deg, var(--main-dark) 6.65%, var(--main-dark-0) 28.99%),
+    url("/public/assets/images/hero-section-background.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 120px;
+  text-shadow: 2px 2px 8px var(--main-dark);
+}
+
+.text-bold {
+  font-size: 180px;
+}
